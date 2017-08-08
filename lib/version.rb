@@ -4,7 +4,7 @@ module Discourse
     module VERSION #:nodoc:
       MAJOR = 1
       MINOR = 9
-      TINY  = 0
+      TINY  = 3
       PRE   = 'beta5'
 
       STRING = [MAJOR, MINOR, TINY, PRE].compact.join('.')
