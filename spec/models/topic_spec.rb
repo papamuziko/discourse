@@ -1802,10 +1802,10 @@ describe Topic do
     end
 
     it 'can properly save the featured link' do
-      topic.featured_link = '  https://github.com/discourse/discourse'
+      topic.featured_link = '  https://github.com/papamuziko/discourse'
 
       expect(topic.save).to be_truthy
-      expect(topic.featured_link).to eq('https://github.com/discourse/discourse')
+      expect(topic.featured_link).to eq('https://github.com/papamuziko/discourse')
     end
 
     context 'when category restricts present' do
@@ -1814,19 +1814,19 @@ describe Topic do
       let(:link_topic) { Fabricate(:topic, category: link_category) }
 
       it 'can save the featured link if it belongs to that category' do
-        link_topic.featured_link = 'https://github.com/discourse/discourse'
+        link_topic.featured_link = 'https://github.com/papamuziko/discourse'
         expect(link_topic.save).to be_truthy
-        expect(link_topic.featured_link).to eq('https://github.com/discourse/discourse')
+        expect(link_topic.featured_link).to eq('https://github.com/papamuziko/discourse')
       end
 
       it 'can not save the featured link if category does not allow it' do
         topic.category = Fabricate(:category, topic_featured_link_allowed: false)
-        topic.featured_link = 'https://github.com/discourse/discourse'
+        topic.featured_link = 'https://github.com/papamuziko/discourse'
         expect(topic.save).to be_falsey
       end
 
       it 'if category changes to disallow it, topic remains valid' do
-        t = Fabricate(:topic, category: link_category, featured_link: "https://github.com/discourse/discourse")
+        t = Fabricate(:topic, category: link_category, featured_link: "https://github.com/papamuziko/discourse")
 
         link_category.topic_featured_link_allowed = false
         link_category.save!

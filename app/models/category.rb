@@ -160,7 +160,7 @@ SQL
     # topics, and posts.
     #
     # The old method with the one query is here:
-    # https://github.com/discourse/discourse/blob/5f34a621b5416a53a2e79a145e927fca7d5471e8/app/models/category.rb
+    # https://github.com/papamuziko/discourse/blob/5f34a621b5416a53a2e79a145e927fca7d5471e8/app/models/category.rb
     #
     # If you refactor this, test performance on a large database.
 

@@ -1483,7 +1483,7 @@ ro:
 
       - Actualizează folosind metoda noastră de **[actualizare cu un singur click în browser](%{base_url}/admin/upgrade)**
 
-      - Află ce e nou în [raportul de schimbări GitHub](https://github.com/discourse/discourse/commits/master)
+      - Află ce e nou în [raportul de schimbări GitHub](https://github.com/papamuziko/discourse/commits/master)
 
       - Vizitează [meta.discourse.org](https://meta.discourse.org) pentru știri, discuții și suport pentru Discourse
   new_version_mailer_with_notes:
@@ -1495,7 +1495,7 @@ ro:
 
       - Actualizează folosind metoda noastră de **[actualizare cu un singur click în browser](%{base_url}/admin/upgrade)**
 
-      - Află ce e nou în [raportul de schimbări GitHub](https://github.com/discourse/discourse/commits/master)
+      - Află ce e nou în [raportul de schimbări GitHub](https://github.com/papamuziko/discourse/commits/master)
 
       - Vizitează [meta.discourse.org](https://meta.discourse.org) pentru știri, discuții și supot pentru Discourse
 
